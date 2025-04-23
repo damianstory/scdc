@@ -1,0 +1,10 @@
+<svg width="60" height="30" viewBox="0 0 60 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect x="5" y="5" width="50" height="20" rx="5" fill="#1A1A50"/>
+  
+  <!-- SCDC letters -->
+  <circle cx="15" cy="15" r="5" fill="#0095FF"/>
+  <circle cx="25" cy="15" r="5" fill="#0095FF"/>
+  <circle cx="35" cy="15" r="5" fill="#0095FF"/>
+  <circle cx="45" cy="15" r="5" fill="#0095FF"/>
+</svg> 
