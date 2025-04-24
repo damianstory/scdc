@@ -19,15 +19,17 @@ export default function Hero() {
     <section className="container flex min-h-[calc(70vh-3.5rem)] max-w-screen-2xl flex-col items-center justify-center space-y-8 pt-6 pb-3 text-center md:pt-8 md:pb-4">
       <div className="space-y-4">
         <h1 className="bg-gradient-to-br from-foreground from-30% via-foreground/90 to-foreground/70 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl">
-          School Career Development
+          Career Education Curriculum
           <br />
-          Certificate
+          is Siloed
           <br />
           
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Empowering businesses with cutting-edge software solutions. From AI-driven analytics to seamless cloud
-          integrations, we're shaping the future of technology.
+        <br />
+        But it doesn't have to be. 
+        <br />
+        <br />Customized at a local school level, myBlueprint's School Career Development Certificate will assist school leaders in developing an intentional scope and sequence of career connected learning opportunities that encourage consistent, reflective career conversations throughout a students high school journey.  
         </p>
       </div>
       <div className="flex justify-center">

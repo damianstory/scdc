@@ -12,18 +12,17 @@ export default function CTA() {
     <section className="border-t bg-gradient-to-b from-background to-background/80">
       <div className="container flex flex-col items-center gap-6 py-24 pb-12 text-center md:py-32 md:pb-16">
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
-          Ready to revolutionize your business?
+          How Educators Are Involved
         </h2>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 mb-8">
-          Join leading companies who trust Amane Soft to drive their digital transformation and stay ahead in the
-          rapidly evolving tech landscape.
+          Career connected learning opportunities will be created to align with your individual curriculum, not to be one more thing.  
         </p>
         
         <div className="w-full max-w-3xl mx-auto mt-4">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
-                How does Amane Soft's AI integration work?
+                How does Amane Soft&apos;s AI integration work?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
                 Our AI integration seamlessly connects with your existing systems to analyze data, automate processes, and provide actionable insights. We customize each implementation to address your specific business challenges and goals, ensuring you get maximum value with minimal disruption to your operations.
@@ -78,8 +77,14 @@ export default function CTA() {
               <SendIcon className="h-8 w-8 text-primary" />
               <h3 className="font-bold">Want To Get Involved?</h3>
             </div>
-            <p className="mt-2 text-muted-foreground">
-              Join our community of innovators and be part of the digital transformation revolution. Connect with us today to explore partnership opportunities.
+            <p className="mt-4 text-muted-foreground space-y-6">
+              There is room for a few more motivated schools to get involved for the 25-26 school.
+            </p>
+            <p className="mt-6 text-muted-foreground">
+              This is an opt-in program. Email Damian today.
+            </p>
+            <p className="mt-6 text-muted-foreground">
+              damian.matheson@myblueprint.ca 
             </p>
           </div>
         </div>

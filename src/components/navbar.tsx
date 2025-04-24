@@ -21,16 +21,16 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
-        <div className="flex items-center gap-4">
+      <div className="flex h-[103px] w-full items-center px-6">
+        <div className="flex items-center">
           <img 
             src="/logo.png" 
             alt="Logo" 
-            style={{ height: '30px', width: 'auto' }}
+            style={{ height: '40px', width: 'auto' }}
           />
         </div>
         
-        <div className="ml-auto flex items-center space-x-4">
+        <div className="ml-auto flex items-center gap-8">
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium transition-colors hover:text-primary">
               Partner Schools <ChevronDown className="h-4 w-4" />
@@ -53,7 +53,7 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Button size="sm" onClick={scrollToGetInvolved}>Join Program</Button>
+          <Button size="sm" onClick={scrollToGetInvolved} className="px-6">Join Program</Button>
         </div>
       </div>
     </header>

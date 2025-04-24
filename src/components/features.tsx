@@ -27,10 +27,9 @@ export default function Features() {
   return (
     <section className="container space-y-16 py-20 md:py-28">
       <div className="mx-auto max-w-[58rem] text-center">
-        <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">Cutting-Edge Solutions</h2>
+        <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">How it Works</h2>
         <p className="mt-4 text-muted-foreground sm:text-lg">
-          Discover how Amane Soft can transform your business with our innovative technologies.
-        </p>
+        Designed at the school level based on your unique priorities, resources, and community goals.</p>
       </div>
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
         {features.map((feature) => (
