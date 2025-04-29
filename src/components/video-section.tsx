@@ -33,7 +33,7 @@ export default function VideoSection() {
                 </button>
                 <div className="text-center">
                   <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl">
-                    Join <span className="bg-gradient-to-r from-orange-400 via-yellow-400 to-purple-500 bg-clip-text text-transparent">50,000</span> builders
+                    Explainer Video Coming Soon
                   </h2>
                 </div>
               </div>
