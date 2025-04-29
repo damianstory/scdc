@@ -1,0 +1,9 @@
+# Query: This is an opt-in program.
+# ContextLines: 1
+
+1 result - 1 file
+
+src/components/cta.tsx:
+  84                  <p>
+  85:                   This is an opt-in program. Email Damian today.
+  86                  </p>

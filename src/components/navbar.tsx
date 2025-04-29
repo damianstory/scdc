@@ -23,9 +23,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex h-[103px] w-full items-center px-6">
         <div className="flex items-center">
-          <img 
+          <Image 
             src="/logo.png" 
             alt="Logo" 
+            width={40}
+            height={40}
             style={{ height: '40px', width: 'auto' }}
           />
         </div>

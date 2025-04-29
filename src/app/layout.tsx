@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+      </head>
       <body className={`${inter.className} bg-background text-foreground antialiased`}>
         <MouseMoveEffect />
         {children}
