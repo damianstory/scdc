@@ -29,7 +29,7 @@ export default function Hero() {
         <br />
         But it doesn&apos;t have to be. 
         <br />
-        <br />Customized in collaboration with each school, myBlueprint&apos;s School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities that encourage consistent, reflective career conversations throughout a students high school journey.  
+        <br />Customized in collaboration with each school, myBlueprint&apos;s School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities that encourage consistent, reflective career conversations throughout a student&apos;s high school journey.  
         </p>
       </div>
       <div className="flex justify-center">
