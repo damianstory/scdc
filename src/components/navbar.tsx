@@ -26,9 +26,11 @@ export default function Navbar() {
           <Image 
             src="/logo.png" 
             alt="Logo" 
-            width={40}
+            width={160}
             height={40}
-            style={{ height: '40px', width: 'auto' }}
+            priority
+            quality={100}
+            className="h-10 w-auto"
           />
         </div>
         

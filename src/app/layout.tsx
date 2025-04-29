@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "School Career Development Certificate",
   description: "An opt-in program in collaboration with myBlueprint that signals career and life preparedness as a community priority.",
+  icons: {
+    icon: '/favicon.png'
+  }
 }
 
 export default function RootLayout({
@@ -18,9 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <head>
-        <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
-      </head>
       <body className={`${inter.className} bg-background text-foreground antialiased`}>
         <MouseMoveEffect />
         {children}
