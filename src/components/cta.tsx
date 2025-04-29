@@ -34,7 +34,7 @@ export default function CTA() {
                 What is an example of a career-connected learning activity?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
-                It's something that is intentionally designed to help students make connections between what they are learning in class, the durable skills they are developing, and the specific types of occupations that could overlap.
+                It&apos;s something that is intentionally designed to help students make connections between what they are learning in class, the durable skills they are developing, and the specific types of occupations that could overlap.
                 <br />
                 <br />
                 For example, during our Biology unit, we might individually research 3-5 related occupations at regional or provincial companies, identify what skills are required to work in each role, relevant post-secondary training, and then engage in a class discussion to share our findings.
@@ -43,10 +43,10 @@ export default function CTA() {
 
             <AccordionItem value="item-3" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
-                What  if I'm already making intentional career connections in my classroom?
+                What if I&apos;m already making intentional career connections in my classroom?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
-                That's fantastic. We're not looking to reinvent the wheel. If you're already doing something that's working, let's highlight that in your school's custom implementation plan so we can share it with others. 
+                That&apos;s fantastic. We&apos;re not looking to reinvent the wheel. If you&apos;re already doing something that&apos;s working, let&apos;s highlight that in your school&apos;s custom implementation plan so we can share it with others. 
                 <br />
                 <br />
                 Make sure to communicate that with your school lead so we can include it within your school specific implementation plan. 
@@ -55,23 +55,23 @@ export default function CTA() {
             
             <AccordionItem value="item-2" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
-                I'm already busy. Isn't this just one more thing?
+                I&apos;m already busy. Isn&apos;t this just one more thing?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
-                It doesn't have to be, if it's done right. The activities and resources we develop for you are going to align with your curriculum.  
+                It doesn&apos;t have to be, if it&apos;s done right. The activities and resources we develop for you are going to align with your curriculum.  
               </AccordionContent>
             </AccordionItem>
             
             
             <AccordionItem value="item-5" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
-                I don't have career education qulaifications. Will you provide PD? 
+                I don&apos;t have career education qulaifications. Will you provide PD? 
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
-                Talking to young people about relevant occupations, careers, and skills isn't as scary as many make it out to be. You don't need another AQ to do this. You just need to be curious, and open-minded. 
+                Talking to young people about relevant occupations, careers, and skills isn&apos;t as scary as many make it out to be. You don&apos;t need another AQ to do this. You just need to be curious, and open-minded. 
                 <br />
                 <br />
-                You don't have to have all of the answers. No one does. But you can help by asking the right questions. We'll help you with that.
+                You don&apos;t have to have all of the answers. No one does. But you can help by asking the right questions. We&apos;ll help you with that.
 
               </AccordionContent>
             </AccordionItem>
