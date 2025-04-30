@@ -12,6 +12,7 @@ export default function VideoSection() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
             className="absolute inset-0 w-full h-full"
+            loading="lazy"
           />
         </div>
       </div>

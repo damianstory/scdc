@@ -10,9 +10,7 @@ export const metadata: Metadata = {
   title: "School Career Development Certificate",
   description: "Customized in collaboration with each school, myBlueprint's School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities.",
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' }
-    ]
+    icon: { url: '/favicon.png', type: 'image/png' }
   }
 }
 
