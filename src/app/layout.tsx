@@ -8,9 +8,11 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "School Career Development Certificate",
-  description: "An opt-in program in collaboration with myBlueprint that signals career and life preparedness as a community priority.",
+  description: "Customized in collaboration with each school, myBlueprint's School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities.",
   icons: {
-    icon: '/favicon.png'
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' }
+    ]
   }
 }
 
