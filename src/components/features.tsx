@@ -29,7 +29,7 @@ export default function Features() {
         <br/> The world has changed. It&apos;s time to adapt.
         <br />
         <br />
-        Research from the OECD suggests that consistent, diverse, and reflective two-way career conversations throughout a student&apos;s high school journey leading to outcomes like:
+        Research from the OECD suggests that consistent, diverse, and reflective two-way career conversations throughout a student&apos;s high school journey contribute to outcomes like:
        <br />
        <br />
         </p>
