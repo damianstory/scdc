@@ -26,7 +26,7 @@ export default function Features() {
         <p className="mt-4 text-muted-foreground sm:text-lg">
         <br />
         One career education class across a students entire high school journey no longer makes sense. 
-        <br/> The world has changed. It's time to adapt.
+        <br/> The world has changed. It&apos;s time to adapt.
         <br />
         <br />
         Research from the OECD suggests that consistent, diverse, and reflective two-way career conversations throughout a student&apos;s high school journey leading to outcomes like:
