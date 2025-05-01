@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
-  // Function to handle smooth scrolling to the CTA section
-  const scrollToInvolved = () => {
-    // Find the element with ID "get-involved"
-    const involvedSection = document.getElementById("get-involved");
+  // Function to handle smooth scrolling to the video section
+  const scrollToVideo = () => {
+    // Find the element with ID "video-section"
+    const videoSection = document.getElementById("video-section");
     
-    if (involvedSection) {
-      // Scroll smoothly to the section
-      involvedSection.scrollIntoView({ behavior: "smooth" });
+    if (videoSection) {
+      const headerOffset = 130; // offset to account for fixed header
+      const elementPosition = videoSection.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
     }
   };
 
@@ -29,12 +35,14 @@ export default function Hero() {
         <br />
         But it doesn&apos;t have to be. 
         <br />
-        <br />Customized in collaboration with each school, myBlueprint&apos;s School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities that encourage consistent, reflective career conversations throughout a student&apos;s high school journey.  
+        <br />Customized in collaboration with each school, 
+        <br /> <strong className="bg-gradient-to-br from-foreground from-30% via-foreground/90 to-foreground/70 bg-clip-text text-transparent"> myBlueprint&apos;s School Career Development Certificate</strong> 
+        <br />will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities that encourage consistent, reflective career conversations throughout a student&apos;s high school journey.  
         </p>
       </div>
       <div className="flex justify-center">
-        <Button variant="outline" size="lg" onClick={scrollToInvolved}>
-          Want To Get Involved?
+        <Button variant="outline" size="lg" onClick={scrollToVideo}>
+          How Does It Work?
         </Button>
       </div>
     </section>

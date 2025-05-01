@@ -1,0 +1,9 @@
+# Query: Want to Get Involved?
+# ContextLines: 1
+
+1 result - 1 file
+
+src/components/hero.tsx:
+  38          <Button variant="outline" size="lg" onClick={scrollToInvolved}>
+  39:           How Does it Work?
+  40          </Button>

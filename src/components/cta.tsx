@@ -9,8 +9,8 @@ import { SendIcon, FileText, Download, CalendarDays } from "lucide-react"
 
 export default function CTA() {
   return (
-    <section className="border-t bg-gradient-to-b from-background to-background/80">
-      <div className="container flex flex-col items-center gap-6 py-24 pb-12 text-center md:py-32 md:pb-16">
+    <section className="bg-gradient-to-b from-background to-background/80">
+      <div className="container flex flex-col items-center gap-6 py-24 text-center">
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
           Educator Involvement
         </h2>
@@ -18,7 +18,7 @@ export default function CTA() {
           We all want our students to feel prepared to succeed in life after high school. This program will help you play your part in making that happen, without it being one more thing.  
         </p>
         
-        <div className="w-full max-w-3xl mx-auto mt-4">
+        <div className="w-full max-w-3xl mx-auto mt-4 pb-16">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
@@ -65,24 +65,22 @@ export default function CTA() {
             
             <AccordionItem value="item-5" className="border-b border-muted/60">
               <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
-                I don&apos;t have career education qulaifications. Will you provide PD? 
+                I don&apos;t have career education qualifications. Will you provide PD? 
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base pb-6">
-                Talking to young people about relevant occupations, careers, and skills isn&apos;t as scary as many make it out to be. You don&apos;t need another AQ to do this. You just need to be curious, and open-minded. 
+                Talking to young people about relevant occupations, careers, and skills isn&apos;t as scary as many make it out to be. 
                 <br />
                 <br />
-                You don&apos;t have to have all of the answers. No one does. But you can help by asking the right questions. We&apos;ll help you with that.
-
-              </AccordionContent>
+                myBlueprint is collaborating with the team behind the Connecting Career Development and Mental Health for Youth in Schools research to create a short video series that will enable every educator to understand the simple steps they can take to confidently bring career-connected conversations into their classroom.
+                <br />
+                <br />
+                Educators at participating certificate schools will get priority access, along with the opportunity to earn a recognized certificate of completion.              </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
         
-        {/* Divider line */}
-        <div className="w-full border-t border-muted/60 my-10"></div>
-        
         {/* Feature box instead of button */}
-        <div id="get-involved" className="mx-auto w-full max-w-3xl scroll-mt-16">
+        <div id="get-involved" className="mx-auto w-full max-w-3xl">
           <div className="relative overflow-hidden rounded-lg border bg-background p-8 flex items-start gap-4">
             <SendIcon className="h-8 w-8 text-primary mt-0.5" />
             <div className="flex flex-col w-full">
@@ -100,14 +98,14 @@ export default function CTA() {
         </div>
         
         {/* Three horizontal buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-3xl mt-12 mb-3">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-3xl mt-8 mb-3">
           <a
             href="https://docs.google.com/document/d/1yHqhT8OSiG29vQE7k7RtHlG4nHH8XyukTpXi9piboV0/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1"
           >
-            <Button variant="outline" className="w-full gap-2">
+            <Button size="sm" className="w-full gap-2 px-6">
               <FileText className="h-4 w-4" />
               Read The Memo
             </Button>
@@ -118,7 +116,7 @@ export default function CTA() {
             rel="noopener noreferrer"
             className="flex-1"
           >
-            <Button variant="outline" className="w-full gap-2">
+            <Button size="sm" className="w-full gap-2 px-6">
               <Download className="h-4 w-4" />
               Download One Pager
             </Button>
@@ -129,7 +127,7 @@ export default function CTA() {
             rel="noopener noreferrer"
             className="flex-1"
           >
-            <Button variant="outline" className="w-full gap-2">
+            <Button size="sm" className="w-full gap-2 px-6">
               <CalendarDays className="h-4 w-4" />
               School Level Work-Back
             </Button>

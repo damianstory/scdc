@@ -2,7 +2,7 @@ import { Play } from "lucide-react"
 
 export default function VideoSection() {
   return (
-    <section className="container pt-8 pb-16 md:pt-12 md:pb-24">
+    <section id="video-section" className="container pt-8 pb-16 md:pt-12 md:pb-24">
       <div className="mx-auto max-w-screen-lg">
         <div className="aspect-video relative overflow-hidden rounded-2xl border border-zinc-800 bg-black shadow-xl">
           <iframe 

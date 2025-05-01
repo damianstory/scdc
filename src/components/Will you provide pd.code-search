@@ -1,0 +1,9 @@
+# Query: Will you provide pd
+# ContextLines: 1
+
+1 result - 1 file
+
+src/components/cta.tsx:
+  67                <AccordionTrigger className="text-lg font-medium text-left py-5 hover:no-underline hover:text-primary">
+  68:                 I don&apos;t have career education qualifications. Will you provide PD? 
+  69                </AccordionTrigger>

@@ -1,0 +1,33 @@
+# Query: Certificate
+# ContextLines: 1
+
+8 results - 4 files
+
+src/app/layout.tsx:
+   9  export const metadata: Metadata = {
+  10:   title: "School Career Development Certificate",
+  11:   description: "Customized in collaboration with each school, myBlueprint's School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities.",
+  12    icons: {
+
+src/components/features.tsx:
+  20      name: "Implementation & Support",
+  21:     description: "Ongoing implementation support, and sharing of real-time learnings across participating certificate schools.",
+  22      icon: Zap,
+
+  29    {
+  30:     name: "Award Certificate",
+  31      description: "A symbol to communicate that career and life-preparedness is a top priority for your school community.",
+
+  70              <br />
+  71:             Educators at participating certificate schools will get priority access, along with the opportunity to earn a recognized certificate of completion.
+  72            </p>
+
+src/components/footer.tsx:
+  8          <p className="text-center text-sm text-muted-foreground">
+  9:           © {new Date().getFullYear()} School Career Development Certificate. myBlueprint Special Projects.
+  10          </p>
+
+src/components/hero.tsx:
+  31          <br />
+  32:         <br />Customized in collaboration with each school, myBlueprint&apos;s School Career Development Certificate will assist building leaders in developing an intentional scope and sequence full of career connected learning opportunities that encourage consistent, reflective career conversations throughout a student&apos;s high school journey.  
+  33          </p>
